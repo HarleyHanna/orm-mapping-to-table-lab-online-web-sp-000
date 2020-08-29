@@ -46,7 +46,7 @@ class Student
   end
   
   def self.create(hash)
-    student = Student.new(hash(name:), hash(grade:))
+    student = Student.new(hash[:name], hash[:grade])
     student.save
     student
   end
