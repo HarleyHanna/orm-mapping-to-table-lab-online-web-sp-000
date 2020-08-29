@@ -22,6 +22,7 @@ class Student
         name TEXT,
         grade TEXT
       )
+      SQL
   end
 
   # Remember, you can access your database connection anywhere in this class
